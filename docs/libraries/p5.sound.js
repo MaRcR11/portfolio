@@ -1,7 +1,7 @@
 /*! p5.sound.js v0.3.0 2016-01-31 */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd)
-    define('p5.sound', ['root/libraries/p5'], function (p5) { (factory(p5));});
+    define('p5.sound', ['docs/libraries/p5'], function (p5) { (factory(p5));});
   else if (typeof exports === 'object')
     factory(require('../p5'));
   else
@@ -2322,7 +2322,7 @@ amplitude = function () {
         }
       }
       var average = total / bufLength;
-      // ... then take the square root of the sum.
+      // ... then take the square docs of the sum.
       var rms = Math.sqrt(sum / bufLength);
       this.stereoVol[channel] = Math.max(rms, this.stereoVol[channel] * this.smoothing);
       this.stereoAvg[channel] = Math.max(average, this.stereoVol[channel] * this.smoothing);

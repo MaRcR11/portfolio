@@ -25132,14 +25132,14 @@ p5.prototype.round = Math.round;
 p5.prototype.sq = function(n) { return n*n; };
 
 /**
- * Calculates the square root of a number. The square root of a number is
- * always positive, even though there may be a valid negative root. The
- * square root s of number a is such that s*s = a. It is the opposite of
+ * Calculates the square docs of a number. The square docs of a number is
+ * always positive, even though there may be a valid negative docs. The
+ * square docs s of number a is such that s*s = a. It is the opposite of
  * squaring. Maps to Math.sqrt().
  *
  * @method sqrt
- * @param  {Number} n non-negative number to square root
- * @return {Number}   square root of number
+ * @param  {Number} n non-negative number to square docs
+ * @return {Number}   square docs of number
  * @example
  * <div><code>
  * function draw() {
