@@ -83,3 +83,20 @@ html, body{
 
 
 }
+
+.explore-div{
+    margin-top: -40px;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#explore-link{
+    color: #ff8d00;
+    text-decoration: none;
+
+}
+#explore-link:hover{
+    text-decoration: underline #ff8d00;
+}
